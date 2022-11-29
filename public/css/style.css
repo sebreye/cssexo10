@@ -42,7 +42,31 @@ section:nth-child(3) h2:nth-child(3), h2:nth-child(4){
 /* fin exo display */
 
 /* exo position */
+section:nth-child(4) h2:nth-child(3) h2:nth-child(4){
+  width: auto;
+  float:inline-start;
+}
+section:nth-child(4){
+  overflow: auto;
+}
+section:nth-child(5) h2:nth-child(3){
+  position: fixed;
+  background-color: greenyellow;
+  margin: 0;
+  top: 50px;
+  left: 50%;
+}
+section:nth-child(5){
+  position: relative;
+}
 /* fin exo position */
 
 /* exo position (priorité) */
+section:nth-child(6) h2:nth-child(4){
+    background-color: blue;
+    margin-left: 100px;
+}
+section:nth-child(6) h2:nth-child(3) h2:nth-child(4){
+  position: absolute;
+}
 /* fin exo position (priorité) */
